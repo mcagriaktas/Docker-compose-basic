@@ -4,6 +4,7 @@ In this project, we will build a mini calculator app using Docker Compose. To Do
 2. app.py
 3. requirements.txt
 4. docker-compose.yml
+   
 ![Untitled](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/f1564414-24a4-4cec-8dc8-3b1494b93ebe)
 
    1. Dockerfile: The Dockerfile is a text file that defines the steps to create a Docker image. It specifies the base image, sets the working directory, defines environment variables, copies files, installs dependencies, 
@@ -35,11 +36,13 @@ In this project, we will build a mini calculator app using Docker Compose. To Do
    4. docker-compose.yml: The docker-compose.yml file is used to define and configure the Docker services. It specifies how the Docker containers should be built and run. It includes information about the Docker image, 
       ports to expose, and any additional configuration.
   
-      When we run "docker-compose build", the instructions in the Dockerfile are executed to build the Docker image. 
+      When we run "docker-compose build", the instructions in the Dockerfile are executed to build the Docker image.
+      
       ![docker-compose-build](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a9994e6e-82bd-48dd-9bc8-c269799b47f8)
 
       If everything is set up correctly, we can start the containers using "docker-compose up". To run the 
       containers in the background, we can use "docker-compose up -d" where the "-d" flag means to run in detached mode.
+      
       ![image](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/ac7267ec-2d8c-4370-b026-6e73b837f72c)
 
       So you can start the app in any browser " localhost:5000 "

@@ -1,4 +1,4 @@
-# Docker-compose-basic
+# Docker-compose-build-basic-a-calculator
 In this project, we will build a mini calculator app using Docker Compose. To Dockerize an application, you need four files:
 1. Dockerfile 
 2. app.py

@@ -42,6 +42,15 @@ In this project, we will build a mini calculator app using Docker Compose. To Do
       containers in the background, we can use "docker-compose up -d" where the "-d" flag means to run in detached mode.
       ![image](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/ac7267ec-2d8c-4370-b026-6e73b837f72c)
 
+      So you can start the app in any browser " localhost:5000 "
+      
+      ![appin](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a7f2d6cd-6d9b-4f6e-bb4b-e24d1bdecdd6)
+
+      ![appinn2](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/58fcec22-3294-4a27-b313-6d6355333ba0)
+
+
+PS: I'll soon add the calculation history to the application. "Redis" exists in the application because of that!
+
       
 
       

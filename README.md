@@ -65,5 +65,3 @@ where the "-d" flag means to run in detached mode.
 So you can start the app in any browser " localhost:5000 "
 
 ![calculate](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/731d2291-b513-4e71-b7fa-0b319cb1dcd5)
-
-PS: I'll soon add the calculation history to the application. "Redis" exists in the application because of that!

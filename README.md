@@ -48,7 +48,7 @@ When we run the Docker-compose.yml file, the instructions in the Dockerfile are 
 ```
 docker-compose build
 ```
-Docker randomly assigns a name to this build, so you can give a tag (name) when building a Dockerfile, like this:
+Docker randomly assigns a name to this build, so we can give a tag (name) when building a Dockerfile, like this:
 ```
 docker-compose build -t project_test
 ```

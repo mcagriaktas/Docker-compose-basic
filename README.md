@@ -52,6 +52,7 @@ Docker randomly assigns a name to this build, so we can give a tag (name) when b
 ```
 docker-compose build -t project_test
 ```
+PS: We're using Docker Compose because we have two containers in this project; the first one is Redis, and the second one is the web app. This means Docker uses just a single container, while Docker Compose uses more than one container.
 ![docker-compose-build](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a9994e6e-82bd-48dd-9bc8-c269799b47f8)
 
 If everything is set up correctly, we can start the containers using, 

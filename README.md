@@ -45,9 +45,9 @@ BUILD AND START
 ---------------------------------------------------
 When we run the Docker-compose.yml file, the instructions in the Dockerfile are executed to build the Docker image.
 
-```bash
+```
 docker-compose build
-```bash
+```
 ![docker-compose-build](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a9994e6e-82bd-48dd-9bc8-c269799b47f8)
 
 If everything is set up correctly, we can start the containers using "docker-compose up". To run the 

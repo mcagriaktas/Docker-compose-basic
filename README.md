@@ -66,6 +66,6 @@ where the "-d" flag means to run in detached mode.
 
 ![image](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/ac7267ec-2d8c-4370-b026-6e73b837f72c)
 
-So you can start the app in any browser " localhost:5000 "
+So we can start the app in any browser " localhost:5000 "
 
 ![calculate](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/731d2291-b513-4e71-b7fa-0b319cb1dcd5)

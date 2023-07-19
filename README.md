@@ -50,8 +50,15 @@ docker-compose build
 ```
 ![docker-compose-build](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a9994e6e-82bd-48dd-9bc8-c269799b47f8)
 
-If everything is set up correctly, we can start the containers using "docker-compose up". To run the 
-containers in the background, we can use "docker-compose up -d" where the "-d" flag means to run in detached mode.
+If everything is set up correctly, we can start the containers using, 
+```
+"docker-compose up".
+```
+To run the containers in the background, we can use, 
+```
+"docker-compose up -d"
+```
+where the "-d" flag means to run in detached mode.
 
 ![image](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/ac7267ec-2d8c-4370-b026-6e73b837f72c)
 
@@ -62,10 +69,3 @@ So you can start the app in any browser " localhost:5000 "
 ![calculate](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/731d2291-b513-4e71-b7fa-0b319cb1dcd5)
 
 PS: I'll soon add the calculation history to the application. "Redis" exists in the application because of that!
-
-      
-
-      
-
-
-

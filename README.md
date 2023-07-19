@@ -1,4 +1,8 @@
 # Docker-compose-build (Linux)
+
+
+
+Descriptions of the files:
 In this project, we will build a mini calculator app using Docker Compose. To Dockerize an application, you need four files:
 1. Dockerfile 
 2. app.py
@@ -39,7 +43,10 @@ In this project, we will build a mini calculator app using Docker Compose. To Do
 
 BUILD AND START
 ---------------------------------------------------
-When we run "docker-compose build", the instructions in the Dockerfile are executed to build the Docker image.
+When we run the Docker-compose.yml file, the instructions in the Dockerfile are executed to build the Docker image.
+
+```bash
+docker-compose build
 
 ![docker-compose-build](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a9994e6e-82bd-48dd-9bc8-c269799b47f8)
 
@@ -52,8 +59,7 @@ So you can start the app in any browser " localhost:5000 "
 
 ![appin](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/a7f2d6cd-6d9b-4f6e-bb4b-e24d1bdecdd6)
 
-![appinn2](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/58fcec22-3294-4a27-b313-6d6355333ba0)
-
+![calculate](https://github.com/mcagriaktas/Docker-compose-basic/assets/52080028/731d2291-b513-4e71-b7fa-0b319cb1dcd5)
 
 PS: I'll soon add the calculation history to the application. "Redis" exists in the application because of that!
 
